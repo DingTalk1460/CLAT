@@ -34,7 +34,7 @@ else
 			$count = $stmt->execute();//执行预处理语句
 			if($count<>0)
 			{
-				echo"<script type='text/javascript'>alert('注册成功');location='logok.html';</script>";  
+				echo"<script type='text/javascript'>alert('注册成功');location='sing.php';</script>";  
 			}
 			else
 			{

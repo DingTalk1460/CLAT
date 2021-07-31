@@ -24,10 +24,16 @@ try
 			echo"<script type='text/javascript'>alert('账号或密码错误'); location='sign.php';</script>";  
 		}
 		else
+		controller:
+
+public function getResource(){
+    return view('home.test');
+
+}
 		{	
 	//增加密码错误后错误次数和锁定功能
 	//登录成功后错误次数归零，跳转到对应页面
-			echo"<script type='text/javascript'>alert('登陆成功');location='index.html';</script>";  
+			echo"<script type='text/javascript'>alert('登陆成功');windows.location.herf="'.$data.'";</script>";  
 		}
 	}
 	else
